@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main__div {
+    width: 100%;
+    /* height: ; */
+    background-color: #FEFBF6;
+}
+
+.job__board__section {
+    margin: 1rem 0;
+    /* border: 1px solid; */
+    /* padding: 0.75rem; */
+}
+
+.job__container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.75rem;
+    border: 1px solid #D7E4C0;
+    background-color: #8CB9BD;
+    border-radius: 5px;
+    margin-bottom: 0.3rem;
+}
+
+button {
+    padding: 0.75rem 1rem;
+    border: none;
+    background-color: #211C6A;
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: 0.6rem;
+}
+
+.job__info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.35rem 0;
+}
+
+.btn_invisible {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
